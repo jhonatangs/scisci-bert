@@ -1,0 +1,30 @@
+# Data Handling
+pandas
+pyarrow
+numpy
+
+# API Interaction
+pyalex
+openalexapi
+requests
+tqdm
+
+# Machine Learning & NLP
+transformers
+torch
+scikit-learn
+
+# Network Analysis
+networkx
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Dimensionality Reduction
+umap-learn
+
+# Code Formatting
+black
+isort
