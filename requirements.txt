@@ -28,3 +28,6 @@ umap-learn
 # Code Formatting
 black
 isort
+
+# Other Utilities
+python-dotenv
