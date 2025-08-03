@@ -118,7 +118,6 @@ dmypy.json
 .pyre/
 
 # Project-specific
-data/raw/
 data/processed/
 notebooks/checkpoints/
 *.env
