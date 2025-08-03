@@ -53,7 +53,7 @@ O projeto é organizado de forma modular para separar as responsabilidades e fac
 |-- requirements.txt # Dependências do projeto para pip.
 |-- README.md # Esta documentação.
 ```
-Generated code
+
 ## 🚀 Como Executar o Projeto
 
 Siga os passos abaixo para configurar o ambiente e reproduzir todas as análises.
@@ -80,11 +80,7 @@ source venv/bin/activate
 
 # 3. Instale as dependências
 pip install -r requirements.txt
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-IGNORE_WHEN_COPYING_END
+
 3. Configurar Variáveis de Ambiente
 
 Para usar a API da OpenAlex de forma "polida" (obtendo acesso mais rápido e estável), é recomendado fornecer um endereço de e-mail.
@@ -92,22 +88,9 @@ Para usar a API da OpenAlex de forma "polida" (obtendo acesso mais rápido e est
 Generated bash
 # Copie o template para um arquivo .env
 cp .env_template .env
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Bash
-IGNORE_WHEN_COPYING_END
 
 Agora, abra o arquivo .env com um editor de texto e insira seu e-mail:
 
-Generated code
-OPENALEX_EMAIL="seu-email@exemplo.com"
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-IGNORE_WHEN_COPYING_END
 4. Preparar os Dados Iniciais
 
 Coloque o arquivo CSV inicial, contendo a lista de pesquisadores a serem analisados, dentro da pasta data/raw/. O arquivo deve ser nomeado como researchers.csv.
@@ -136,12 +119,7 @@ python -m src.feature_engineering.main
 # Passo 3: Executar as análises e gerar os resultados
 # Abra e execute os notebooks na pasta /notebooks em ordem numérica (01, 02, ...).
 # Os notebooks carregarão os dados de /data/processed/ e salvarão os gráficos em /reports/figures/.
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Bash
-IGNORE_WHEN_COPYING_END
+
 🔬 Questões de Pesquisa e Análises
 
 As análises estão organizadas em notebooks, cada um focado em responder a um conjunto de questões de pesquisa:
@@ -182,11 +160,6 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para ma
 
 Se você utilizar este código ou os resultados em sua pesquisa, por favor, cite este trabalho da seguinte forma:
 
-SOUZA, J. G.; LUZ, E. J. S.; FREITAS, V. L. S. Explorando a Rede Científica de Computação no Brasil: Abordagem Integrada com BERT, Análise de Agrupamento e OpenAlex. Monografia (Bacharelado em Ciência da Computação) - Universidade Federal de Ouro Preto, Ouro Preto, 2025.
+(a ser defendida) SOUZA, J. G.; Explorando a Rede Científica de Computação no Brasil: Abordagem Integrada com BERT, Análise de Agrupamento e OpenAlex. Monografia (Bacharelado em Ciência da Computação) - Universidade Federal de Ouro Preto, Ouro Preto, 2025.
 
-Generated code
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-IGNORE_WHEN_COPYING_END
+
