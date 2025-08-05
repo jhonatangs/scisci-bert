@@ -124,3 +124,4 @@ notebooks/checkpoints/
 .env_template
 *.csv
 *.parquet
+test.py
