@@ -6,18 +6,20 @@ import torch
 import os
 
 
-def prepare_author_document(author_data: list, strategy: str = "x_concepts") -> str:
+def prepare_author_document(
+    author_data: np.ndarray, strategy: str = "x_concepts"
+) -> str:
     """
     Cria um "documento" único que representa o autor a partir de seus conceitos.
 
     Args:
-        author_data (list): Uma lista de dicionários, onde cada dicionário representa um conceito.
+        author_data (np.ndarray): Um array NumPy, onde cada elemento representa um conceito.
         strategy (str, optional): A estratégia para criar o documento. Defaults to 'x_concepts'.
 
     Returns:
         str: Uma string com os nomes dos conceitos concatenados.
     """
-    if not isinstance(author_data, list):
+    if not isinstance(author_data, np.ndarray):
         return ""
 
     if strategy == "x_concepts":
