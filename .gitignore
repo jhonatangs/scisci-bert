@@ -120,6 +120,7 @@ dmypy.json
 # Project-specific
 data/processed/
 notebooks/checkpoints/
+images/
 *.env
 .env_template
 *.csv

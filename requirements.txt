@@ -32,3 +32,4 @@ isort
 # Other Utilities
 python-dotenv
 hdbscan
+kaleido
