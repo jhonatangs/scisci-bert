@@ -77,11 +77,7 @@ Copie o arquivo `.env_template` para `.env` e insira seu e-mail para acesso "pol
 
 ### 3. Preparação dos Dados
 
-Coloque seu arquivo inicial em `data/raw/researchers.csv`. Ele deve seguir este formato:
-
-| name | lattes_id | institution |
-| :--- | :--- | :--- |
-| Nome do Pesquisador | 123456789... | UFOP |
+Coloque seu arquivo inicial em `data/raw/researchers.csv`.
 
 ### 4. Execução do Pipeline
 
